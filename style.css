@@ -413,7 +413,7 @@ p {
 
 /* Contact Css */
 .contact{
-    padding: 4rem 0;
+    padding: 4rem 4rem;
     background-color: var(--bg-light-white);
 }
 .contact .info li p a{
