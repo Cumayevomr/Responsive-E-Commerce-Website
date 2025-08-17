@@ -382,3 +382,31 @@ p {
     margin: 1rem 0;
     display: block;
 }
+.testimonial .testimonial-wrapper p{
+    color: var(--text-gray);
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+.testimonial .carousel-indicators [data-bs-target]{
+    background-color: var(--bg-danger);
+    width: 2.5rem;
+    height: 0.313rem;
+}
+.testimonial .carousel-control-next-icon,
+.testimonial .carousel-control-prev-icon{
+    background: transparent;
+}
+.testimonial .carousel-indicators{
+    bottom: -3rem;
+}
+.testimonial .slider-icon{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--text-danger);
+}
+.testimonial .carousel-control-prev{
+    left: -8.75rem;
+}
+.testimonial .carousel-control-next{
+    right: -8.75rem;
+}
