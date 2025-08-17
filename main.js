@@ -40,3 +40,10 @@ scrollTopBack();
 
 
 // nav hide
+let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".navbar-collapse.collapse");
+navBar.forEach(function(a) {
+    addEventListener("click", function(){
+        navCollapse.classList.remove("show");
+    })
+});
