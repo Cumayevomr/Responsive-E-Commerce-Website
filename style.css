@@ -445,3 +445,35 @@ p {
     outline: none;
     border: none;
 }
+
+/* Footer Css */
+ .copyright{
+    background: var(--bg-danger);
+ }
+ .copyright p,
+ .copyright a{
+    color: var(--text-white);
+ }
+
+/* Scroll Back To Top */
+#scrollup{
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    height: 2.813rem;
+    width: 2.5rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    display: none;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    background: var(--bg-danger);
+}
+#scrollup span{
+    line-height: 2.625rem;
+}
+#scrollup.scrollActive{
+    display: block;
+}
